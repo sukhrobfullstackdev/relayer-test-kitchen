@@ -1,0 +1,7 @@
+.muiBtn {
+    background-color: #A799FF !important;
+    transition: 0.3s all;
+}
+.muiBtn:active {
+    filter: brightness(50%) !important;
+}
