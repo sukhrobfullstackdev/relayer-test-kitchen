@@ -31,49 +31,49 @@ importers:
         version: 0.4.3
       '@magic-ext/aptos':
         specifier: latest
-        version: 11.11.0(@aptos-labs/wallet-adapter-core@3.16.0(@aptos-labs/ts-sdk@1.28.0)(aptos@1.21.0))(aptos@1.21.0)
+        version: 11.18.1(@aptos-labs/wallet-adapter-core@3.16.0(@aptos-labs/ts-sdk@1.28.0)(aptos@1.21.0))(aptos@1.21.0)
       '@magic-ext/flow':
         specifier: latest
-        version: 23.11.0(@onflow/fcl@1.12.1(@types/react@18.2.78)(bufferutil@4.0.8)(encoding@0.1.13)(google-protobuf@3.21.4)(react@18.2.0)(utf-8-validate@5.0.10))(@onflow/types@1.4.0)
+        version: 23.18.1(@onflow/fcl@1.12.1(@types/react@18.2.78)(bufferutil@4.0.8)(encoding@0.1.13)(google-protobuf@3.21.4)(react@18.2.0)(utf-8-validate@5.0.10))(@onflow/types@1.4.0)
       '@magic-ext/gdkms':
         specifier: latest
-        version: 11.11.0
+        version: 11.18.1
       '@magic-ext/hedera':
         specifier: latest
-        version: 1.0.3(@hashgraph/sdk@2.51.0)
+        version: 1.0.4(@hashgraph/sdk@2.51.0)
       '@magic-ext/kadena':
         specifier: ^0.2.0
         version: 0.2.0
       '@magic-ext/near':
         specifier: latest
-        version: 23.11.0
+        version: 23.18.1
       '@magic-ext/oauth':
         specifier: latest
-        version: 22.11.0
+        version: 22.18.1
       '@magic-ext/oauth2':
         specifier: latest
-        version: 9.11.0
+        version: 9.18.1
       '@magic-ext/oidc':
         specifier: latest
-        version: 11.11.0
+        version: 11.18.1
       '@magic-ext/solana':
         specifier: latest
-        version: 25.12.0(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))
+        version: 25.19.1(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))
       '@magic-ext/webauthn':
         specifier: latest
-        version: 22.11.0
+        version: 22.18.1
       '@magic-sdk/admin':
         specifier: latest
         version: 2.4.1(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@magic-sdk/pnp':
         specifier: latest
-        version: 22.11.0
+        version: 22.19.1
       '@magic-sdk/provider':
         specifier: latest
-        version: 28.17.0(localforage@1.10.0)
+        version: 28.18.1(localforage@1.10.0)
       '@magic-sdk/types':
         specifier: latest
-        version: 24.15.0
+        version: 24.16.1
       '@metamask/eth-sig-util':
         specifier: ^7.0.2
         version: 7.0.3
@@ -163,7 +163,7 @@ importers:
         version: 0.8.9(bufferutil@4.0.8)(typescript@5.4.5)(utf-8-validate@5.0.10)
       magic-sdk:
         specifier: latest
-        version: 28.11.0
+        version: 28.19.1
       near-api-js:
         specifier: 4.0.0
         version: 4.0.0(encoding@0.1.13)
@@ -1360,68 +1360,68 @@ packages:
   '@lit/reactive-element@1.6.3':
     resolution: {integrity: sha512-QuTgnG52Poic7uM1AN5yJ09QMe0O28e10XzSvWDz02TJiiKee4stsiownEIadWm8nYzyDAyT+gKzUoZmiWQtsQ==}
 
-  '@magic-ext/aptos@11.11.0':
-    resolution: {integrity: sha512-wcztvFt9UsFDcOYc8ouGo683kn51aQt5pbwbLr2L7EBkoLgEDJHSjS0GSYsM7jrCssj/E8LJKMmxgvDbQlC9tQ==}
+  '@magic-ext/aptos@11.18.1':
+    resolution: {integrity: sha512-/bSe7lF6XQrTBxUVkqrGMx2GC9DCqySohm7zPMvAa6zfSnWxmpWkFp80IgWdyHURV4TDvLP0j1585ilZrsEGRA==}
     peerDependencies:
       '@aptos-labs/wallet-adapter-core': ^2.2.0
       aptos: ^1.8.5
 
-  '@magic-ext/flow@23.11.0':
-    resolution: {integrity: sha512-HaAXSFKGw6zv/dZCuLDh62YxYPQPSCqkkrUQJDcqG8jzzWuoRrx2ARP5kGkcJ36mqZui5a2D3hVokjCHtvJF3Q==}
+  '@magic-ext/flow@23.18.1':
+    resolution: {integrity: sha512-xeVFctIESCvoF3iAO3WttGO21a0uIpm7dVF+nKfFZONaEnHzJ7WR5QA3DiATxb9CmvKRNAX52zB42Sxf4b45xw==}
     peerDependencies:
       '@onflow/fcl': ^1.4.1
       '@onflow/types': ^1.1.0
 
-  '@magic-ext/gdkms@11.11.0':
-    resolution: {integrity: sha512-JcVjBgr9WcDRasruKpw1M6N2jppbObTh7rM/syBkNPmBpwTxTsjGzYTFNPFsH2eHhmuvir/dFNT7NgG8lS1F9A==}
+  '@magic-ext/gdkms@11.18.1':
+    resolution: {integrity: sha512-5YG+8XhYFI0XiippaESuXH4JFrX6wSDt8JUluw0QrGXm4L8iUgylJ9p49no2wc17u6QFK9mFjRIHAl6lruJOpw==}
 
-  '@magic-ext/hedera@1.0.3':
-    resolution: {integrity: sha512-6QOpQtdhpZOsAGGNoiDGYRuOEmMc8EAyUBhnqK5ytWlnQmfvWcUEWCyA2Swo9ceOBSrZvbZN23s4DzkQQzBGWw==}
+  '@magic-ext/hedera@1.0.4':
+    resolution: {integrity: sha512-6f1Krl0bXMthDT17pfKSXBBfLWwgybjG34T0qsTIsLewenC5CKsMxGYNVDN3AHvwJXdyNzcGuXHKQV/P34EjzQ==}
     peerDependencies:
       '@hashgraph/sdk': ^2.31.0
 
   '@magic-ext/kadena@0.2.0':
     resolution: {integrity: sha512-o88MnDGxJ6RyNvOyjdL75TOUTepgYY+HDSHOGOxwR9pUp4+Jq7pA2InaAc1EmQJwX7uiLI7PVsbXD3SqQdmFog==}
 
-  '@magic-ext/near@23.11.0':
-    resolution: {integrity: sha512-z+NKaSeScONgQk66RJwSUR1HLGH5IHiOaH0bP8rL12VnKqypC3AWRwlJ8JI3sL3jpm7vsQ+U06eOP6DSWjbHOA==}
+  '@magic-ext/near@23.18.1':
+    resolution: {integrity: sha512-ZDrEDZmE5VLokjiLnsowi/92tLaLubo7qXVsMyl7r+y81b+Hx9544zeWHbvVL0vrQnJAW0DKVXjfu/G+kjRnZQ==}
 
-  '@magic-ext/oauth2@9.11.0':
-    resolution: {integrity: sha512-mtj9/6Ex4LpNvTL1pNqdG6beN6NtUqReS7xqfuHtbRRm5kX5F8DV5FWKqjhvxU7hQKz9SrJuPUAJIWd5SYw/Cw==}
+  '@magic-ext/oauth2@9.18.1':
+    resolution: {integrity: sha512-92rMlZpB6qmBFvvZJUS0nJnwzMr1Bnw6eOem9C5jSBvbXjoczpqoy9Itl3xyDRc0xZEiOx3Q4DaDsCLBtp4B1g==}
 
-  '@magic-ext/oauth@22.11.0':
-    resolution: {integrity: sha512-qhseiIXvBaAFSmB55J0/TzKpStrRBvpicJQf83sz7qC/rTiw1MmgCB03ui3H7qU7n8wxoydOufY0kSm0pXW93w==}
+  '@magic-ext/oauth@22.18.1':
+    resolution: {integrity: sha512-DQNgXCPS8+8b4NrJMyfBcUUl1S8W3QYojH2QGZomvonIKfpTcmnm5q6/TbwRNeP2PE+b22WgNlUxTw6kOqewYA==}
 
-  '@magic-ext/oidc@11.11.0':
-    resolution: {integrity: sha512-24CqgQ7gCEKX5dYXJstH9Bq4J58xWi/y/BT6S0kQUWqvmIi0pLcSMszU1uGjMAGrGOc4wY35HSLqYSWleKxD7g==}
+  '@magic-ext/oidc@11.18.1':
+    resolution: {integrity: sha512-7NNPjbsnZE1EySg5mGxzfV8fLe6BNeBKntbgj5zWF0O68s3DEzmooFLb3r7zuzkwBTcDODAab/V/Lt3OjJBMXw==}
 
-  '@magic-ext/solana@25.12.0':
-    resolution: {integrity: sha512-F0cu4XYv+tqytEuDe+UeNUP0H2BoILYJrkG+C85vQ3S6ZfC7PSIdylg987St99na0/7i1QMAai9C+p/LBZ9PXw==}
+  '@magic-ext/solana@25.19.1':
+    resolution: {integrity: sha512-QzusnQqAwNVlbYmv6K8bUHnmKCe62/Uy8eO+NW4NwCGghW2R+xTYnpFCfxRUfwnoyvnGlFb/tQ0TsyhvhfrvFQ==}
     peerDependencies:
       '@solana/web3.js': ^1.87.2
 
-  '@magic-ext/webauthn@22.11.0':
-    resolution: {integrity: sha512-UXlbQP3gypCRguE/OALaExAU8Qu+uqCPbYA/F9jUYOu/6jeMqYWpZZ85H7fukSdI5ypu6mvnh6QHyV8ypP2pxQ==}
+  '@magic-ext/webauthn@22.18.1':
+    resolution: {integrity: sha512-oM0vQvWImX2MH47b+5gEZsGQp2LVUHsNrn8dttGLh4ggUIHZPuXF5uOOyi6+X5mU+4Dd7ScWd5FuEUKi3zFvbQ==}
 
   '@magic-sdk/admin@2.4.1':
     resolution: {integrity: sha512-mx0Z3yMbdY7JXATQiEC298ZKjA414ixfrsBXABdmoQlzvvo6uxUbXbWIpYZGpci0v/INKIg7ksOvdZurGV/F8g==}
 
-  '@magic-sdk/commons@24.11.0':
-    resolution: {integrity: sha512-RoBVb7XlfUH5Or35mQApealfa4TRImtYBble8cxTW9gdax/H3dutlO01wY+jaHJ/boColH9XwcmrIHPP/kKhiA==}
+  '@magic-sdk/commons@24.18.1':
+    resolution: {integrity: sha512-0m2pgPu39BEPLfH/gyuVVgQF1WPBJWfKA65N5tfFCqJ2L+nZVKRmw+kg+Q5H8dMIqLY32sTD0cvjwJxYzPCHQA==}
     peerDependencies:
       '@magic-sdk/provider': '>=18.6.0'
       '@magic-sdk/types': '>=15.8.0'
 
-  '@magic-sdk/pnp@22.11.0':
-    resolution: {integrity: sha512-M8a6YqEATiDZ4AIsLze5Ol5Op/LqsqEWdynU63o9qNwYp6tdbTaJq3DZdowG2ROF7PCvw1vdLeTf7Jz3j7H+rQ==}
+  '@magic-sdk/pnp@22.19.1':
+    resolution: {integrity: sha512-6PQTtZG3jvs7CvYBv8GBgJaCxG3+uwjKSALM5fksTvDxRD5CBoiiqhi9mlbW2S2r0UaKcwqx6W/Nh2bi6H1jjA==}
 
-  '@magic-sdk/provider@28.17.0':
-    resolution: {integrity: sha512-9LciClZPEDDi+7V1Ypv89tgr5jnq80LpBsw6+eyGNAm0qnQSYhfStmrMhH/NJ8t814o/wzXhxu20yMvUkFvVXg==}
+  '@magic-sdk/provider@28.18.1':
+    resolution: {integrity: sha512-9NEY7RoVsjXa9xDbLvAe9rxqvDve+3ywTH1rvQgTX7dsoq7REbeXK6UcrxpsV9enAnEqqhvjWAL+Q3PRwoau9A==}
     peerDependencies:
       localforage: ^1.7.4
 
-  '@magic-sdk/types@24.15.0':
-    resolution: {integrity: sha512-wXFKUz8eW5YZlBviXSNBhx1RAB51PHeaBXGBr6oKz2NY8ZfeFNBSRgUA237Cs1mwLvWsrT5975E/pq+tYVkZfw==}
+  '@magic-sdk/types@24.16.1':
+    resolution: {integrity: sha512-XpdL6P36N7XYTiffhvzs49HbhA3uPro4ApcTF6xxk1VNv2L6v28Dg7FnNa8qib0FGHrypZVKK2cWpX6ioi5ZpA==}
 
   '@metamask/abi-utils@2.0.4':
     resolution: {integrity: sha512-StnIgUB75x7a7AgUhiaUZDpCsqGp7VkNnZh2XivXkJ6mPkE83U8ARGQj5MbRis7VJY8BC5V1AbB1fjdh0hupPQ==}
@@ -3920,6 +3920,7 @@ packages:
 
   ethereumjs-abi@0.6.5:
     resolution: {integrity: sha512-rCjJZ/AE96c/AAZc6O3kaog4FhOsAViaysBxqJNy2+LHP0ttH0zkZ7nXdVHOAyt6lFwLO0nlCwWszysG/ao1+g==}
+    deprecated: This library has been deprecated and usage is discouraged.
 
   ethereumjs-common@1.5.2:
     resolution: {integrity: sha512-hTfZjwGX52GS2jcVO6E2sx4YuFnf0Fhp5ylo4pEPhEffNln7vS59Hr5sLnp3/QCazFLluuBZ+FZ6J5HTp0EqCA==}
@@ -5099,8 +5100,8 @@ packages:
     resolution: {integrity: sha512-tPMbN0QTOEjVbukX8jDHqabXUwnULrPRQ+XwdwkCSVuq1gEn2IYnkKFaOap7TG0LWl8PIX4rXxFdjR4wcc8UeQ==}
     engines: {node: '>=20', pnpm: '>=9'}
 
-  magic-sdk@28.11.0:
-    resolution: {integrity: sha512-e2LA9rmEQH/rvHuD5oivKAjh56wnnbcPul2NPe4I/Mscn3Mu7J5D9BIQjAPNyxliYsXpSy/3OA+hCI68tOIMmw==}
+  magic-sdk@28.19.1:
+    resolution: {integrity: sha512-a94WqJ6mvSwynekwVfM/diKXCbkieKvCdp/CRDLqlPWEmbv+yLhZiW3B3gwk8nLWjGHZrL/4uCgOHvaZQm05Ng==}
 
   make-dir@2.1.0:
     resolution: {integrity: sha512-LS9X+dc8KLxXCb8dni79fLIIUA5VyZoyjSMCwTluaXA0o27cCK0bhXkpgw+sTXVpPy/lSO57ilRixqk0vDmtRA==}
@@ -9019,41 +9020,41 @@ snapshots:
     dependencies:
       '@lit-labs/ssr-dom-shim': 1.2.1
 
-  '@magic-ext/aptos@11.11.0(@aptos-labs/wallet-adapter-core@3.16.0(@aptos-labs/ts-sdk@1.28.0)(aptos@1.21.0))(aptos@1.21.0)':
+  '@magic-ext/aptos@11.18.1(@aptos-labs/wallet-adapter-core@3.16.0(@aptos-labs/ts-sdk@1.28.0)(aptos@1.21.0))(aptos@1.21.0)':
     dependencies:
       '@aptos-labs/wallet-adapter-core': 3.16.0(@aptos-labs/ts-sdk@1.28.0)(aptos@1.21.0)
       aptos: 1.21.0
 
-  '@magic-ext/flow@23.11.0(@onflow/fcl@1.12.1(@types/react@18.2.78)(bufferutil@4.0.8)(encoding@0.1.13)(google-protobuf@3.21.4)(react@18.2.0)(utf-8-validate@5.0.10))(@onflow/types@1.4.0)':
+  '@magic-ext/flow@23.18.1(@onflow/fcl@1.12.1(@types/react@18.2.78)(bufferutil@4.0.8)(encoding@0.1.13)(google-protobuf@3.21.4)(react@18.2.0)(utf-8-validate@5.0.10))(@onflow/types@1.4.0)':
     dependencies:
       '@onflow/fcl': 1.12.1(@types/react@18.2.78)(bufferutil@4.0.8)(encoding@0.1.13)(google-protobuf@3.21.4)(react@18.2.0)(utf-8-validate@5.0.10)
       '@onflow/types': 1.4.0
 
-  '@magic-ext/gdkms@11.11.0': {}
+  '@magic-ext/gdkms@11.18.1': {}
 
-  '@magic-ext/hedera@1.0.3(@hashgraph/sdk@2.51.0)':
+  '@magic-ext/hedera@1.0.4(@hashgraph/sdk@2.51.0)':
     dependencies:
       '@hashgraph/sdk': 2.51.0
 
   '@magic-ext/kadena@0.2.0': {}
 
-  '@magic-ext/near@23.11.0': {}
+  '@magic-ext/near@23.18.1': {}
 
-  '@magic-ext/oauth2@9.11.0':
+  '@magic-ext/oauth2@9.18.1':
     dependencies:
       crypto-js: 3.3.0
 
-  '@magic-ext/oauth@22.11.0':
+  '@magic-ext/oauth@22.18.1':
     dependencies:
       crypto-js: 3.3.0
 
-  '@magic-ext/oidc@11.11.0': {}
+  '@magic-ext/oidc@11.18.1': {}
 
-  '@magic-ext/solana@25.12.0(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))':
+  '@magic-ext/solana@25.19.1(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))':
     dependencies:
       '@solana/web3.js': 1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
 
-  '@magic-ext/webauthn@22.11.0': {}
+  '@magic-ext/webauthn@22.18.1': {}
 
   '@magic-sdk/admin@2.4.1(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)':
     dependencies:
@@ -9065,23 +9066,23 @@ snapshots:
       - encoding
       - utf-8-validate
 
-  '@magic-sdk/commons@24.11.0(@magic-sdk/provider@28.17.0(localforage@1.10.0))(@magic-sdk/types@24.15.0)':
+  '@magic-sdk/commons@24.18.1(@magic-sdk/provider@28.18.1(localforage@1.10.0))(@magic-sdk/types@24.16.1)':
     dependencies:
-      '@magic-sdk/provider': 28.17.0(localforage@1.10.0)
-      '@magic-sdk/types': 24.15.0
+      '@magic-sdk/provider': 28.18.1(localforage@1.10.0)
+      '@magic-sdk/types': 24.16.1
 
-  '@magic-sdk/pnp@22.11.0': {}
+  '@magic-sdk/pnp@22.19.1': {}
 
-  '@magic-sdk/provider@28.17.0(localforage@1.10.0)':
+  '@magic-sdk/provider@28.18.1(localforage@1.10.0)':
     dependencies:
-      '@magic-sdk/types': 24.15.0
+      '@magic-sdk/types': 24.16.1
       eventemitter3: 4.0.7
       localforage: 1.10.0
       web3-core: 1.5.2
     transitivePeerDependencies:
       - supports-color
 
-  '@magic-sdk/types@24.15.0': {}
+  '@magic-sdk/types@24.16.1': {}
 
   '@metamask/abi-utils@2.0.4':
     dependencies:
@@ -14189,11 +14190,11 @@ snapshots:
       - utf-8-validate
       - zod
 
-  magic-sdk@28.11.0:
+  magic-sdk@28.19.1:
     dependencies:
-      '@magic-sdk/commons': 24.11.0(@magic-sdk/provider@28.17.0(localforage@1.10.0))(@magic-sdk/types@24.15.0)
-      '@magic-sdk/provider': 28.17.0(localforage@1.10.0)
-      '@magic-sdk/types': 24.15.0
+      '@magic-sdk/commons': 24.18.1(@magic-sdk/provider@28.18.1(localforage@1.10.0))(@magic-sdk/types@24.16.1)
+      '@magic-sdk/provider': 28.18.1(localforage@1.10.0)
+      '@magic-sdk/types': 24.16.1
       localforage: 1.10.0
     transitivePeerDependencies:
       - supports-color
