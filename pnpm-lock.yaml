@@ -31,49 +31,49 @@ importers:
         version: 0.4.3
       '@magic-ext/aptos':
         specifier: latest
-        version: 11.11.0(@aptos-labs/wallet-adapter-core@3.16.0(@aptos-labs/ts-sdk@1.28.0)(aptos@1.21.0))(aptos@1.21.0)
+        version: 11.20.0(@aptos-labs/wallet-adapter-core@3.16.0(@aptos-labs/ts-sdk@1.28.0)(aptos@1.21.0))(aptos@1.21.0)
       '@magic-ext/flow':
         specifier: latest
-        version: 23.11.0(@onflow/fcl@1.12.1(@types/react@18.2.78)(bufferutil@4.0.8)(encoding@0.1.13)(google-protobuf@3.21.4)(react@18.2.0)(utf-8-validate@5.0.10))(@onflow/types@1.4.0)
+        version: 23.20.0(@onflow/fcl@1.12.1(@types/react@18.2.78)(bufferutil@4.0.8)(encoding@0.1.13)(google-protobuf@3.21.4)(react@18.2.0)(utf-8-validate@5.0.10))(@onflow/types@1.4.0)
       '@magic-ext/gdkms':
         specifier: latest
-        version: 11.11.0
+        version: 11.20.0
       '@magic-ext/hedera':
         specifier: latest
-        version: 1.0.3(@hashgraph/sdk@2.51.0)
+        version: 1.0.4(@hashgraph/sdk@2.51.0)
       '@magic-ext/kadena':
         specifier: ^0.2.0
         version: 0.2.0
       '@magic-ext/near':
         specifier: latest
-        version: 23.11.0
+        version: 23.20.0
       '@magic-ext/oauth':
         specifier: latest
-        version: 22.11.0
+        version: 22.20.0
       '@magic-ext/oauth2':
         specifier: latest
-        version: 9.11.0
+        version: 9.21.0
       '@magic-ext/oidc':
         specifier: latest
-        version: 11.11.0
+        version: 11.20.0
       '@magic-ext/solana':
         specifier: latest
-        version: 25.12.0(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))
+        version: 25.21.0(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))
       '@magic-ext/webauthn':
         specifier: latest
-        version: 22.11.0
+        version: 22.20.0
       '@magic-sdk/admin':
         specifier: latest
         version: 2.4.1(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@magic-sdk/pnp':
         specifier: latest
-        version: 22.11.0
+        version: 22.21.0
       '@magic-sdk/provider':
         specifier: latest
-        version: 28.17.0(localforage@1.10.0)
+        version: 28.20.0(localforage@1.10.0)
       '@magic-sdk/types':
         specifier: latest
-        version: 24.15.0
+        version: 24.18.0
       '@metamask/eth-sig-util':
         specifier: ^7.0.2
         version: 7.0.3
@@ -163,7 +163,7 @@ importers:
         version: 0.8.9(bufferutil@4.0.8)(typescript@5.4.5)(utf-8-validate@5.0.10)
       magic-sdk:
         specifier: latest
-        version: 28.11.0
+        version: 28.21.0
       near-api-js:
         specifier: 4.0.0
         version: 4.0.0(encoding@0.1.13)
@@ -218,7 +218,7 @@ importers:
         version: 0.1.13
       eslint-config-airbnb-typescript:
         specifier: ^18.0.0
-        version: 18.0.0(@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@8.14.0(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(typescript@5.4.5))(@typescript-eslint/parser@8.14.0(eslint@8.56.0)(typescript@5.4.5))(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.14.0(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0))(eslint@8.56.0)
+        version: 18.0.0(@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@8.14.0(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(typescript@5.4.5))(@typescript-eslint/parser@8.14.0(eslint@8.56.0)(typescript@5.4.5))(eslint-plugin-import@2.31.0)(eslint@8.56.0)
       eslint-config-next:
         specifier: 13.5.6
         version: 13.5.6(eslint@8.56.0)(typescript@5.4.5)
@@ -1360,68 +1360,68 @@ packages:
   '@lit/reactive-element@1.6.3':
     resolution: {integrity: sha512-QuTgnG52Poic7uM1AN5yJ09QMe0O28e10XzSvWDz02TJiiKee4stsiownEIadWm8nYzyDAyT+gKzUoZmiWQtsQ==}
 
-  '@magic-ext/aptos@11.11.0':
-    resolution: {integrity: sha512-wcztvFt9UsFDcOYc8ouGo683kn51aQt5pbwbLr2L7EBkoLgEDJHSjS0GSYsM7jrCssj/E8LJKMmxgvDbQlC9tQ==}
+  '@magic-ext/aptos@11.20.0':
+    resolution: {integrity: sha512-nYkYwnPTJfugNd6scBofYSE+6defF+8Xqr7RtIsMkLG13otUiOQM+0iZ4iZbBfD+QXRLQE/b1P8woAiCYdyFqQ==}
     peerDependencies:
       '@aptos-labs/wallet-adapter-core': ^2.2.0
       aptos: ^1.8.5
 
-  '@magic-ext/flow@23.11.0':
-    resolution: {integrity: sha512-HaAXSFKGw6zv/dZCuLDh62YxYPQPSCqkkrUQJDcqG8jzzWuoRrx2ARP5kGkcJ36mqZui5a2D3hVokjCHtvJF3Q==}
+  '@magic-ext/flow@23.20.0':
+    resolution: {integrity: sha512-+lv/SNNkjUUj58marYCh/S1+RlDBPYnQGiC3j0OK16AULefxmgyIb7Q32GlkggMzZ+8fW0hZ7+8vV1GWxek7zQ==}
     peerDependencies:
       '@onflow/fcl': ^1.4.1
       '@onflow/types': ^1.1.0
 
-  '@magic-ext/gdkms@11.11.0':
-    resolution: {integrity: sha512-JcVjBgr9WcDRasruKpw1M6N2jppbObTh7rM/syBkNPmBpwTxTsjGzYTFNPFsH2eHhmuvir/dFNT7NgG8lS1F9A==}
+  '@magic-ext/gdkms@11.20.0':
+    resolution: {integrity: sha512-ZSOc1HDXei690UVptLc5TkBstwugZvGh8HOUx+ldHsOr0F3Cv7g+4i3QA5f/ar1N0Sq3D9/zitLNQlhE6Jy42g==}
 
-  '@magic-ext/hedera@1.0.3':
-    resolution: {integrity: sha512-6QOpQtdhpZOsAGGNoiDGYRuOEmMc8EAyUBhnqK5ytWlnQmfvWcUEWCyA2Swo9ceOBSrZvbZN23s4DzkQQzBGWw==}
+  '@magic-ext/hedera@1.0.4':
+    resolution: {integrity: sha512-6f1Krl0bXMthDT17pfKSXBBfLWwgybjG34T0qsTIsLewenC5CKsMxGYNVDN3AHvwJXdyNzcGuXHKQV/P34EjzQ==}
     peerDependencies:
       '@hashgraph/sdk': ^2.31.0
 
   '@magic-ext/kadena@0.2.0':
     resolution: {integrity: sha512-o88MnDGxJ6RyNvOyjdL75TOUTepgYY+HDSHOGOxwR9pUp4+Jq7pA2InaAc1EmQJwX7uiLI7PVsbXD3SqQdmFog==}
 
-  '@magic-ext/near@23.11.0':
-    resolution: {integrity: sha512-z+NKaSeScONgQk66RJwSUR1HLGH5IHiOaH0bP8rL12VnKqypC3AWRwlJ8JI3sL3jpm7vsQ+U06eOP6DSWjbHOA==}
+  '@magic-ext/near@23.20.0':
+    resolution: {integrity: sha512-h2EUV6JZ8QZ+zR/jibvMthVHeDsKGmhy+oZJSwiGT2zwAb7bZAG6XcSxnlm4oBkdLkEqa8dEJ7iQQbTzI6giUA==}
 
-  '@magic-ext/oauth2@9.11.0':
-    resolution: {integrity: sha512-mtj9/6Ex4LpNvTL1pNqdG6beN6NtUqReS7xqfuHtbRRm5kX5F8DV5FWKqjhvxU7hQKz9SrJuPUAJIWd5SYw/Cw==}
+  '@magic-ext/oauth2@9.21.0':
+    resolution: {integrity: sha512-43KvjPg8xxqSYo0W8mVcFcotCo78p3JZNQ+O8P83qvkyTxe8ZAPwBUbSxDLKvBqlcnxvRkz7vru+M/B7Vx4ezg==}
 
-  '@magic-ext/oauth@22.11.0':
-    resolution: {integrity: sha512-qhseiIXvBaAFSmB55J0/TzKpStrRBvpicJQf83sz7qC/rTiw1MmgCB03ui3H7qU7n8wxoydOufY0kSm0pXW93w==}
+  '@magic-ext/oauth@22.20.0':
+    resolution: {integrity: sha512-XW9IBS+YR6S0U6gFpQSgithsltYLzYJv6N5TY22WglzbCXqWmnGRAF1wAjL3woM6P8yyzKS5d9VewM/A9BhDPw==}
 
-  '@magic-ext/oidc@11.11.0':
-    resolution: {integrity: sha512-24CqgQ7gCEKX5dYXJstH9Bq4J58xWi/y/BT6S0kQUWqvmIi0pLcSMszU1uGjMAGrGOc4wY35HSLqYSWleKxD7g==}
+  '@magic-ext/oidc@11.20.0':
+    resolution: {integrity: sha512-D2Tg2EQurVaSMmVpVk3nC9E1W77n2DPcTQM9FK3WJfO1OniLZg+BG7mUrWaAqeErRayAKD4zBOy7UeMbACiIzg==}
 
-  '@magic-ext/solana@25.12.0':
-    resolution: {integrity: sha512-F0cu4XYv+tqytEuDe+UeNUP0H2BoILYJrkG+C85vQ3S6ZfC7PSIdylg987St99na0/7i1QMAai9C+p/LBZ9PXw==}
+  '@magic-ext/solana@25.21.0':
+    resolution: {integrity: sha512-GmTXZmS+9ggz3Cll6+JcPcGD/+UtFTlq82O/WXy6PJRklDkpCw6HSYdjnGiPQg6oz3zbZce//boP/FOnEhOC1Q==}
     peerDependencies:
       '@solana/web3.js': ^1.87.2
 
-  '@magic-ext/webauthn@22.11.0':
-    resolution: {integrity: sha512-UXlbQP3gypCRguE/OALaExAU8Qu+uqCPbYA/F9jUYOu/6jeMqYWpZZ85H7fukSdI5ypu6mvnh6QHyV8ypP2pxQ==}
+  '@magic-ext/webauthn@22.20.0':
+    resolution: {integrity: sha512-O+MDZvDjP7rmM/xMLhidhyEd2x4qnYeGkPcN+KrZNey9ZnRfhB9zOKv66OpwW/gs6O1ZyoVbiTW1Z0XFdiQ4jQ==}
 
   '@magic-sdk/admin@2.4.1':
     resolution: {integrity: sha512-mx0Z3yMbdY7JXATQiEC298ZKjA414ixfrsBXABdmoQlzvvo6uxUbXbWIpYZGpci0v/INKIg7ksOvdZurGV/F8g==}
 
-  '@magic-sdk/commons@24.11.0':
-    resolution: {integrity: sha512-RoBVb7XlfUH5Or35mQApealfa4TRImtYBble8cxTW9gdax/H3dutlO01wY+jaHJ/boColH9XwcmrIHPP/kKhiA==}
+  '@magic-sdk/commons@24.20.0':
+    resolution: {integrity: sha512-7uOWqqXzV7eHXo8NAoKDTkp5QqeHN2LUN7K6AtCSM8cPq4Auil/5o6hTSF/6sD4pxn70IKCi1P6x+umnYn5BEg==}
     peerDependencies:
       '@magic-sdk/provider': '>=18.6.0'
       '@magic-sdk/types': '>=15.8.0'
 
-  '@magic-sdk/pnp@22.11.0':
-    resolution: {integrity: sha512-M8a6YqEATiDZ4AIsLze5Ol5Op/LqsqEWdynU63o9qNwYp6tdbTaJq3DZdowG2ROF7PCvw1vdLeTf7Jz3j7H+rQ==}
+  '@magic-sdk/pnp@22.21.0':
+    resolution: {integrity: sha512-8O3wYSXWiGEtHouC7JY3NswAMHNekj7ch6U6243QTQQkW9+Nolus/oKiEJH8zllf4q7H1YmrvjzOp1juJ5/0Sw==}
 
-  '@magic-sdk/provider@28.17.0':
-    resolution: {integrity: sha512-9LciClZPEDDi+7V1Ypv89tgr5jnq80LpBsw6+eyGNAm0qnQSYhfStmrMhH/NJ8t814o/wzXhxu20yMvUkFvVXg==}
+  '@magic-sdk/provider@28.20.0':
+    resolution: {integrity: sha512-BmNfctAABoUX0iyCx15a753XL796V2fY1nGtVBIk4zyW5ZGqfF6poVQ9MlJDf0TqyPm1Ff+9qHZsazUP6YjoSg==}
     peerDependencies:
       localforage: ^1.7.4
 
-  '@magic-sdk/types@24.15.0':
-    resolution: {integrity: sha512-wXFKUz8eW5YZlBviXSNBhx1RAB51PHeaBXGBr6oKz2NY8ZfeFNBSRgUA237Cs1mwLvWsrT5975E/pq+tYVkZfw==}
+  '@magic-sdk/types@24.18.0':
+    resolution: {integrity: sha512-6HS9WMgzLNCkvkJeDZW8+/maP8JInDYqnfudp/SgPWMosm9l6zH3X+x+ntDjRIUm5Qdugsg+L1fxMBj48r616Q==}
 
   '@metamask/abi-utils@2.0.4':
     resolution: {integrity: sha512-StnIgUB75x7a7AgUhiaUZDpCsqGp7VkNnZh2XivXkJ6mPkE83U8ARGQj5MbRis7VJY8BC5V1AbB1fjdh0hupPQ==}
@@ -3920,6 +3920,7 @@ packages:
 
   ethereumjs-abi@0.6.5:
     resolution: {integrity: sha512-rCjJZ/AE96c/AAZc6O3kaog4FhOsAViaysBxqJNy2+LHP0ttH0zkZ7nXdVHOAyt6lFwLO0nlCwWszysG/ao1+g==}
+    deprecated: This library has been deprecated and usage is discouraged.
 
   ethereumjs-common@1.5.2:
     resolution: {integrity: sha512-hTfZjwGX52GS2jcVO6E2sx4YuFnf0Fhp5ylo4pEPhEffNln7vS59Hr5sLnp3/QCazFLluuBZ+FZ6J5HTp0EqCA==}
@@ -5099,8 +5100,8 @@ packages:
     resolution: {integrity: sha512-tPMbN0QTOEjVbukX8jDHqabXUwnULrPRQ+XwdwkCSVuq1gEn2IYnkKFaOap7TG0LWl8PIX4rXxFdjR4wcc8UeQ==}
     engines: {node: '>=20', pnpm: '>=9'}
 
-  magic-sdk@28.11.0:
-    resolution: {integrity: sha512-e2LA9rmEQH/rvHuD5oivKAjh56wnnbcPul2NPe4I/Mscn3Mu7J5D9BIQjAPNyxliYsXpSy/3OA+hCI68tOIMmw==}
+  magic-sdk@28.21.0:
+    resolution: {integrity: sha512-aT/ReZLXNRccfxNw8YfYjHxTf4/9qq/gA8loCF2XN0W9E/6dx1RUpaRVtVsBSO2HQcLpj83GNIKAL554kagfkQ==}
 
   make-dir@2.1.0:
     resolution: {integrity: sha512-LS9X+dc8KLxXCb8dni79fLIIUA5VyZoyjSMCwTluaXA0o27cCK0bhXkpgw+sTXVpPy/lSO57ilRixqk0vDmtRA==}
@@ -6618,6 +6619,7 @@ packages:
 
   sudo-prompt@9.2.1:
     resolution: {integrity: sha512-Mu7R0g4ig9TUuGSxJavny5Rv0egCEtpZRNMrZaYS1vxkiIxGiGUwoezU3LazIQ+KE04hTrTfNPgxU5gzi7F5Pw==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   superstruct@2.0.2:
     resolution: {integrity: sha512-uV+TFRZdXsqXTL2pRvujROjdZQ4RAlBUS5BTh9IGm+jTqQntYThciG/qu57Gs69yjnVUSqdxF9YLmSnpupBW9A==}
@@ -9019,41 +9021,41 @@ snapshots:
     dependencies:
       '@lit-labs/ssr-dom-shim': 1.2.1
 
-  '@magic-ext/aptos@11.11.0(@aptos-labs/wallet-adapter-core@3.16.0(@aptos-labs/ts-sdk@1.28.0)(aptos@1.21.0))(aptos@1.21.0)':
+  '@magic-ext/aptos@11.20.0(@aptos-labs/wallet-adapter-core@3.16.0(@aptos-labs/ts-sdk@1.28.0)(aptos@1.21.0))(aptos@1.21.0)':
     dependencies:
       '@aptos-labs/wallet-adapter-core': 3.16.0(@aptos-labs/ts-sdk@1.28.0)(aptos@1.21.0)
       aptos: 1.21.0
 
-  '@magic-ext/flow@23.11.0(@onflow/fcl@1.12.1(@types/react@18.2.78)(bufferutil@4.0.8)(encoding@0.1.13)(google-protobuf@3.21.4)(react@18.2.0)(utf-8-validate@5.0.10))(@onflow/types@1.4.0)':
+  '@magic-ext/flow@23.20.0(@onflow/fcl@1.12.1(@types/react@18.2.78)(bufferutil@4.0.8)(encoding@0.1.13)(google-protobuf@3.21.4)(react@18.2.0)(utf-8-validate@5.0.10))(@onflow/types@1.4.0)':
     dependencies:
       '@onflow/fcl': 1.12.1(@types/react@18.2.78)(bufferutil@4.0.8)(encoding@0.1.13)(google-protobuf@3.21.4)(react@18.2.0)(utf-8-validate@5.0.10)
       '@onflow/types': 1.4.0
 
-  '@magic-ext/gdkms@11.11.0': {}
+  '@magic-ext/gdkms@11.20.0': {}
 
-  '@magic-ext/hedera@1.0.3(@hashgraph/sdk@2.51.0)':
+  '@magic-ext/hedera@1.0.4(@hashgraph/sdk@2.51.0)':
     dependencies:
       '@hashgraph/sdk': 2.51.0
 
   '@magic-ext/kadena@0.2.0': {}
 
-  '@magic-ext/near@23.11.0': {}
+  '@magic-ext/near@23.20.0': {}
 
-  '@magic-ext/oauth2@9.11.0':
+  '@magic-ext/oauth2@9.21.0':
     dependencies:
       crypto-js: 3.3.0
 
-  '@magic-ext/oauth@22.11.0':
+  '@magic-ext/oauth@22.20.0':
     dependencies:
       crypto-js: 3.3.0
 
-  '@magic-ext/oidc@11.11.0': {}
+  '@magic-ext/oidc@11.20.0': {}
 
-  '@magic-ext/solana@25.12.0(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))':
+  '@magic-ext/solana@25.21.0(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))':
     dependencies:
       '@solana/web3.js': 1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
 
-  '@magic-ext/webauthn@22.11.0': {}
+  '@magic-ext/webauthn@22.20.0': {}
 
   '@magic-sdk/admin@2.4.1(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)':
     dependencies:
@@ -9065,23 +9067,23 @@ snapshots:
       - encoding
       - utf-8-validate
 
-  '@magic-sdk/commons@24.11.0(@magic-sdk/provider@28.17.0(localforage@1.10.0))(@magic-sdk/types@24.15.0)':
+  '@magic-sdk/commons@24.20.0(@magic-sdk/provider@28.20.0(localforage@1.10.0))(@magic-sdk/types@24.18.0)':
     dependencies:
-      '@magic-sdk/provider': 28.17.0(localforage@1.10.0)
-      '@magic-sdk/types': 24.15.0
+      '@magic-sdk/provider': 28.20.0(localforage@1.10.0)
+      '@magic-sdk/types': 24.18.0
 
-  '@magic-sdk/pnp@22.11.0': {}
+  '@magic-sdk/pnp@22.21.0': {}
 
-  '@magic-sdk/provider@28.17.0(localforage@1.10.0)':
+  '@magic-sdk/provider@28.20.0(localforage@1.10.0)':
     dependencies:
-      '@magic-sdk/types': 24.15.0
+      '@magic-sdk/types': 24.18.0
       eventemitter3: 4.0.7
       localforage: 1.10.0
       web3-core: 1.5.2
     transitivePeerDependencies:
       - supports-color
 
-  '@magic-sdk/types@24.15.0': {}
+  '@magic-sdk/types@24.18.0': {}
 
   '@metamask/abi-utils@2.0.4':
     dependencies:
@@ -12432,7 +12434,7 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-airbnb-base@15.0.0(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.14.0(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0))(eslint@8.56.0):
+  eslint-config-airbnb-base@15.0.0(eslint-plugin-import@2.31.0)(eslint@8.56.0):
     dependencies:
       confusing-browser-globals: 1.0.11
       eslint: 8.56.0
@@ -12441,12 +12443,12 @@ snapshots:
       object.entries: 1.1.8
       semver: 6.3.1
 
-  eslint-config-airbnb-typescript@18.0.0(@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@8.14.0(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(typescript@5.4.5))(@typescript-eslint/parser@8.14.0(eslint@8.56.0)(typescript@5.4.5))(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.14.0(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0))(eslint@8.56.0):
+  eslint-config-airbnb-typescript@18.0.0(@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@8.14.0(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(typescript@5.4.5))(@typescript-eslint/parser@8.14.0(eslint@8.56.0)(typescript@5.4.5))(eslint-plugin-import@2.31.0)(eslint@8.56.0):
     dependencies:
       '@typescript-eslint/eslint-plugin': 7.18.0(@typescript-eslint/parser@8.14.0(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)(typescript@5.4.5)
       '@typescript-eslint/parser': 8.14.0(eslint@8.56.0)(typescript@5.4.5)
       eslint: 8.56.0
-      eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.14.0(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0))(eslint@8.56.0)
+      eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.31.0)(eslint@8.56.0)
     transitivePeerDependencies:
       - eslint-plugin-import
 
@@ -12487,20 +12489,20 @@ snapshots:
       debug: 4.3.7
       enhanced-resolve: 5.17.1
       eslint: 8.56.0
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@6.21.0(eslint@8.56.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3(@typescript-eslint/parser@6.21.0(eslint@8.56.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0)(eslint@8.56.0))(eslint@8.56.0)
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@6.21.0(eslint@8.56.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3)(eslint@8.56.0)
       fast-glob: 3.3.2
       get-tsconfig: 4.8.1
       is-bun-module: 1.2.1
       is-glob: 4.0.3
     optionalDependencies:
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@6.21.0(eslint@8.56.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.6.3)(eslint@8.56.0)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.14.0(eslint@8.56.0)(typescript@5.4.5))(eslint@8.56.0)
     transitivePeerDependencies:
       - '@typescript-eslint/parser'
       - eslint-import-resolver-node
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-module-utils@2.12.0(@typescript-eslint/parser@6.21.0(eslint@8.56.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3(@typescript-eslint/parser@6.21.0(eslint@8.56.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0)(eslint@8.56.0))(eslint@8.56.0):
+  eslint-module-utils@2.12.0(@typescript-eslint/parser@6.21.0(eslint@8.56.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3)(eslint@8.56.0):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
@@ -12532,7 +12534,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 8.56.0
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@6.21.0(eslint@8.56.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3(@typescript-eslint/parser@6.21.0(eslint@8.56.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0)(eslint@8.56.0))(eslint@8.56.0)
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@6.21.0(eslint@8.56.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3)(eslint@8.56.0)
       hasown: 2.0.2
       is-core-module: 2.15.1
       is-glob: 4.0.3
@@ -14189,11 +14191,11 @@ snapshots:
       - utf-8-validate
       - zod
 
-  magic-sdk@28.11.0:
+  magic-sdk@28.21.0:
     dependencies:
-      '@magic-sdk/commons': 24.11.0(@magic-sdk/provider@28.17.0(localforage@1.10.0))(@magic-sdk/types@24.15.0)
-      '@magic-sdk/provider': 28.17.0(localforage@1.10.0)
-      '@magic-sdk/types': 24.15.0
+      '@magic-sdk/commons': 24.20.0(@magic-sdk/provider@28.20.0(localforage@1.10.0))(@magic-sdk/types@24.18.0)
+      '@magic-sdk/provider': 28.20.0(localforage@1.10.0)
+      '@magic-sdk/types': 24.18.0
       localforage: 1.10.0
     transitivePeerDependencies:
       - supports-color
